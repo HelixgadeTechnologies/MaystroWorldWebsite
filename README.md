@@ -15,13 +15,13 @@ MAystroWorld.com is a website for MaystroWorld where you can read about their co
 - contact page
 
 ## Images
-- [Home](images/homepage.png)
-- [About](images/about.png)
-- [Music](images/music.png)
-- [Sport](images/sport.png)
-- [Blog](images/blog.png)
-- [Calendar](images/calendar.png)
-- [Contact](images/contactpage.png)
+- ![Home](images/homepage.png)
+- ![About](images/about.png)
+- ![Music](images/music.png)
+- ![Sport](images/sport.png)
+- ![Blog](images/blog.png)
+- ![Calendar](images/calendar.png)
+- ![Contact](images/contactpage.png)
 
 
 ## Built With
