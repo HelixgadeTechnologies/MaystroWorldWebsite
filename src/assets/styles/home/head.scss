@@ -1,0 +1,170 @@
+@import "../settings/mediaQuery";
+.homeHead {
+  position: relative;
+  height: 80vh;
+
+  @include mobile {
+    height: 40vh;
+  }
+
+  @media screen and (device-width: 640px) and (device-height: 360px) {
+    height: 90vh;
+  }
+  @include kindle_fire_hd_7_both {
+    height: 40vh;
+  }
+  @include kindle_fire_hd_7_landscape {
+    height: 80vh;
+  }
+  @media screen and (device-width: 640px) and (device-height: 384px) {
+    height: 90vh;
+  }
+  @media screen and (device-width: 732px) and (device-height: 412px) {
+    height: 90vh;
+  }
+  @media screen and (device-width: 533px) and (device-height: 320px) {
+    height: 90vh;
+  }
+  @include iPhone_4_landscape {
+    height: 80vh;
+  }
+  @media screen and (device-width: 731px) and (device-height: 411px) {
+    height: 90vh;
+  }
+  @media screen and (device-width: 823px) and (device-height: 411px) {
+    height: 90vh;
+  }
+  @include iPhone_5_portrait {
+    height: 30vh;
+  }
+  @include iPhone_5_landscape {
+    height: 90vh;
+  }
+  @include iPhone_6_landscape {
+    height: 90vh;
+  }
+  @include iPhone_6plus_7plus_8_landscape {
+    height: 90vh;
+  }
+  @include iPhone_x_landscape {
+    height: 90vh;
+  }
+  @media screen and (device-width: 280px) and (device-height: 653px) {
+    height: 30vh;
+  }
+
+  .headImage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100% !important;
+  }
+
+  .grids {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f3a5d9;
+    width: 35%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4.5em;
+
+    @include mobile {
+      height: 40%;
+      width: 50%;
+    }
+    @include kindle_fire_hd_7_both {
+      height: 40%;
+      width: 50%;
+    }
+    @include kindle_fire_hd_7_landscape {
+      height: 40%;
+      width: 40%;
+    }
+    @include iPad_1_2_mini_air_portrait {
+      height: 40%;
+      width: 40%;
+    }
+    @media screen and (device-width: 731px) and (device-height: 411px) {
+      height: 40%;
+      width: 40%;
+    }
+    @include iPhone_5_portrait {
+      height: 45%;
+      width: 50%;
+    }
+    @include iPhone_6plus_7plus_8_landscape {
+      height: 45%;
+      width: 40%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -15%;
+      background: #000;
+      width: 130px;
+      height: 130px;
+
+      @include mobile {
+        display: none;
+      }
+      @include kindle_fire_hd_7_both {
+        display: none;
+      }
+      @media screen and (device-width: 854px) and (device-height: 480px) {
+        display: none;
+      }
+      @media screen and (device-width: 731px) and (device-height: 411px) {
+        display: initial;
+        width: 70px;
+        height: 70px;
+        right: -12%;
+      }
+      @include iPad_3_4_pro_9point7_both {
+        display: initial;
+        width: 90px;
+        height: 90px;
+      }
+    }
+
+    .texts {
+      font-size: 2rem;
+
+      @include mobile {
+        font-size: 1rem;
+      }
+      @media only screen and (device-width: 1024px) and (device-height: 600px) {
+        font-size: 1.2rem;
+      }
+      @include galaxy_pixel_both {
+        font-size: 1rem;
+      }
+      @media screen and (device-width: 320px) and (device-height: 533px) {
+        font-size: 0.9rem;
+      }
+      @media screen and (device-width: 854px) and (device-height: 480px) {
+        font-size: 1.2rem;
+      }
+      @include iPhone_4_portrait {
+        font-size: 0.8rem;
+      }
+      @media screen and (device-width: 823px) and (device-height: 411px) {
+        font-size: 1rem;
+      }
+      @include iPhone_5_portrait {
+        font-size: 0.8rem;
+      }
+      @include iPhone_x_landscape {
+        font-size: 1rem;
+      }
+      @media screen and (device-width: 280px) and (device-height: 653px) {
+        font-size: .8rem;
+      }
+    }
+  }
+}

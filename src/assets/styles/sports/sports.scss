@@ -1,0 +1,35 @@
+@import "../settings/mediaQuery";
+.sportsHead {
+  .v-window__prev {
+    background: none !important;
+  }
+  .v-window__next {
+    background: none !important;
+  }
+}
+
+.sportTexts {
+  .textBody {
+    height: 60vh;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      background: #141414;
+      border-radius: 50px;
+
+      @include mobile {
+        width: 1px;
+      }
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 50px;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #c4c4c4;
+      border-radius: 50px;
+    }
+  }
+}

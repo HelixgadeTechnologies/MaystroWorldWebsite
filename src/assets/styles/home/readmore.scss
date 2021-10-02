@@ -1,0 +1,26 @@
+@import "../settings/mediaQuery";
+
+.readmore {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @include mobile {
+    width: initial;
+  }
+
+  .text {
+    width: 55%;
+    @include mobile {
+      width: 100%;
+    }
+
+    p {
+      font-size: 2rem;
+      @include mobile {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

@@ -15,21 +15,21 @@ MAystroWorld.com is a website for MaystroWorld where you can read about their co
 - contact page
 
 ## Images
-[Home](images/homepage.png)
-[About](images/about.png)
-[Music](images/music.png)
-[Sport](images/sport.png)
-[Blog](images/blog.png)
-[Calendar](images/calendar.png)
-[Contact](images/contactpage.png)
+- [Home](images/homepage.png)
+- [About](images/about.png)
+- [Music](images/music.png)
+- [Sport](images/sport.png)
+- [Blog](images/blog.png)
+- [Calendar](images/calendar.png)
+- [Contact](images/contactpage.png)
 
 
 ## Built With
 This website was built with the technologies below:
-[HTML]
-[VUE.JS](https://cli.vuejs.org/config/)  VUE.JS
-[CSS]
-[JAVASCRIPT]
+- [HTML]
+- [VUE.JS](https://cli.vuejs.org/config/)  VUE.JS
+- [CSS]
+- [JAVASCRIPT]
 
 
 ##Getting Started
@@ -51,13 +51,15 @@ npm run build
 ## Contact
 [Website](http://helixgade.com)
 
-##SOCIALS
+## SOCIALS
 
-[Instagram](https://instagram.com/helixgade)
-[Twitter](https://twitter.com/helixgade)
-[Facebook](https://facebook.com/helixgade)
+- [Instagram](https://instagram.com/helixgade)
+- [Twitter](https://twitter.com/helixgade)
+- [Facebook](https://facebook.com/helixgade)
 
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
 # MaystroWorldWebsite

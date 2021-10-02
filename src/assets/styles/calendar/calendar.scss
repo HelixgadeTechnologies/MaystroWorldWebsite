@@ -1,0 +1,15 @@
+@import "../settings/mediaQuery";
+.calendarHead {
+  .background {
+    height: 70vh;
+    position: relative;
+
+    .backgroundContainer {
+      position: absolute;
+      bottom: -7%;
+      left: 50%;
+      transform: translate(-50%, 7%);
+      z-index: 1;
+    }
+  }
+}
