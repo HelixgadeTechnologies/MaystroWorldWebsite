@@ -15,12 +15,26 @@ MAystroWorld.com is a website for MaystroWorld where you can read about their co
 - contact page
 
 ## Images
+
+Index Page
 - ![Home](images/homepage.png)
+
+About Page
 - ![About](images/about.png)
+
+Music Page
 - ![Music](images/music.png)
+
+Sport Page
 - ![Sport](images/sport.png)
+
+Blog Page
 - ![Blog](images/blog.png)
+
+Calendar Page
 - ![Calendar](images/calendar.png)
+
+Contact Page
 - ![Contact](images/contactpage.png)
 
 
