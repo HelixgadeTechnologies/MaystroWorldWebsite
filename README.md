@@ -2,7 +2,7 @@
 
 Table of Content
 
-About this Project
+## About this Project
 MAystroWorld.com is a website for MaystroWorld where you can read about their company and also read about their blog Post.
 
 ## List of Pages
@@ -26,13 +26,13 @@ MAystroWorld.com is a website for MaystroWorld where you can read about their co
 
 ## Built With
 This website was built with the technologies below:
-- [HTML]
-- [VUE.JS](https://cli.vuejs.org/config/)  VUE.JS
-- [CSS]
-- [JAVASCRIPT]
+- HTML
+- [VUE.JS](https://cli.vuejs.org/config/)  
+- CSS
+- JAVASCRIPT
 
 
-##Getting Started
+## Getting Started
 
 ## Project setup
 ```
