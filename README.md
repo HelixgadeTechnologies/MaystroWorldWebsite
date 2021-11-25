@@ -2,6 +2,8 @@
 
 Table of Content
 
+![Alt](https://repobeats.axiom.co/api/embed/a27d09809945705c1f619eb1d59e2dca215c776e.svg "Repobeats analytics image")
+
 ## About this Project
 MAystroWorld.com is a website for MaystroWorld where you can read about their company and also read about their blog Post.
 
